@@ -1,0 +1,54 @@
+// HEADER
+
+.header {
+    background-color: $clr-white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
+    padding: 30px 0;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__nav a:not(:first-child) {
+    margin-left: 44px;
+}
+
+.header__brand-name {
+    color: $clr-accent;
+    font-size: 25px;
+    font-family: $fnt-bold;
+    letter-spacing: 1px;
+}
+
+.header__brand-description {
+    color: $clr-grey-light;
+    font-size: 15px;
+}
+
+.header__nav {
+    font-size: 18px;
+    color: $clr-grey;
+}
+
+.header__order {
+    display: flex;
+    align-items: center;
+}
+
+.header__order-phone {
+    color: $clr-grey-light;
+}
+
+.header__order-btn {
+    font-family: $fnt-bold;
+    padding: 15px 45px;
+    background-color: $clr-accent;
+    margin-left: 50px;
+    color: $clr-white;
+    box-shadow: 0px 4px 30px rgba(49, 100, 234, 0.5);
+    border-radius: 8px;
+}

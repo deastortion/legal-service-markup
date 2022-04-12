@@ -1,0 +1,28 @@
+// ==== BASE ====
+
+// FONTS
+@font-face {
+    font-family: 'Yota Digit Regular';
+    src: url(../fonts/yota/YotaDigit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Yota Digit Bold';
+    src: url(../fonts/yota/YotaDigit-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Yota Digit Black';
+    src: url(../fonts/yota/YotaDigit-Black.ttf);
+}
+
+body {
+    background-color: $clr-primary;
+    font-family: $fnt-regular;
+}
+
+
+
+.content {
+    flex: 1 1 auto;
+}

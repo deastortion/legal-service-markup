@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Yota Digit';
+    src: url('YotaDigit-Bold.eot');
+    src: local('Yota Digit Bold'), local('YotaDigit-Bold'),
+        url('YotaDigit-Bold.eot?#iefix') format('embedded-opentype'),
+        url('YotaDigit-Bold.woff2') format('woff2'),
+        url('YotaDigit-Bold.woff') format('woff'),
+        url('YotaDigit-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yota Digit';
+    src: url('YotaDigit-Regular.eot');
+    src: local('Yota Digit Regular'), local('YotaDigit-Regular'),
+        url('YotaDigit-Regular.eot?#iefix') format('embedded-opentype'),
+        url('YotaDigit-Regular.woff2') format('woff2'),
+        url('YotaDigit-Regular.woff') format('woff'),
+        url('YotaDigit-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yota Digit';
+    src: url('YotaDigit-Black.eot');
+    src: local('Yota Digit Black'), local('YotaDigit-Black'),
+        url('YotaDigit-Black.eot?#iefix') format('embedded-opentype'),
+        url('YotaDigit-Black.woff2') format('woff2'),
+        url('YotaDigit-Black.woff') format('woff'),
+        url('YotaDigit-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
